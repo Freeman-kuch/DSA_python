@@ -47,3 +47,7 @@ def selection_sort(arr : List) -> List:
         small = find_smallest(arr)
         new_arr.append(arr.pop(small))
     return  new_arr
+
+
+if __name__ == "__main__":
+    print(selection_sort([5, 3, 6, 2, 10]))

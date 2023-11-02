@@ -25,7 +25,7 @@ def find_smallest(array : list) -> int:
     return tiny_index
 
 
-def selection_sort(arr : List):
+def selection_sort(arr : List) -> List:
     """
     Sorts a list in ascending order using the selection sort algorithm.
 

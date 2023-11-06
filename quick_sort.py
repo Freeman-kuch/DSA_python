@@ -28,6 +28,7 @@ Examples:
 
 # Much faster! Quicksort is a tricky case.
 # In the worst case, quicksort takes O(n2) time.
+# it has a Big O notation of O(nlogn)
 def quick_sort(arr: List) -> List:
     """
 Sorts the given list using the quicksort algorithm.

@@ -17,3 +17,6 @@ def common_prefix(arr: List) -> str:
     return prefix
 
 
+str_list = ["interact", "interaction", "intercept", "interchange", "interlude"]
+
+print(common_prefix(str_list))
